@@ -1,0 +1,48 @@
+#projects {
+  padding: 40px 0;
+  background: #f3f3f3;
+
+  .projects {
+
+    &--text {
+      h1 {
+        font-weight: 400;
+        font-size: 40px;
+        text-align: center;
+        color: #444649;
+      }
+
+      &__line {
+        width: 70px;
+        height: 4px;
+        background: #444649;
+        margin: 20px auto 40px auto;
+      }
+    }
+
+    &--title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 40%;
+      margin: 0 auto;
+
+      h3 {
+        font-weight: 400;
+        font-size: 16px;
+        //color: #FFFFFF;
+        color: #1e242c;
+        cursor: pointer;
+      }
+    }
+
+    &--block {
+      &__tab {
+        img {
+          width: 300px;
+        }
+      }
+    }
+
+  }
+}

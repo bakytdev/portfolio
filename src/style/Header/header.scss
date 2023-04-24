@@ -1,0 +1,26 @@
+#header {
+  background: #1b242f;
+  padding: 20px 0;
+  border-bottom: 3px solid #04c2c9;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+
+  .header--general {
+    a {
+      color: #FFFF;
+      font-size: 16px;
+      padding: 0 20px;
+      transition: .4s;
+
+      &:focus {
+        color: #e31b6d;
+      }
+
+      &:hover {
+        color: #e31b6d;
+      }
+    }
+  }
+
+}

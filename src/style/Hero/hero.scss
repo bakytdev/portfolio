@@ -1,0 +1,73 @@
+#hero {
+  background: url("../../img/fon.jpeg") no-repeat center/cover;
+  min-height: 100vh;
+
+  .hero--general {
+    padding: 300px 0 0 0;
+    display: flex;
+    justify-content: center;
+
+    &__block {
+
+      //background: rgba(194, 181, 181, 0.24);
+      backdrop-filter: blur(15px);
+      border-radius: 30px;
+      width: 60%;
+      padding: 20px;
+
+      h1 {
+        font-size: 32pt;
+        line-height: 36pt;
+        color: #fff;
+        text-align: center;
+        padding-bottom: 20px;
+
+        span {
+          color: #e31b6d;
+          padding: 0 5px 0 8px;
+        }
+      }
+
+      &--btn {
+        display: flex;
+        justify-content: center;
+
+        button {
+          display: flex;
+          align-items: center;
+          border: 2px solid #fff;
+          box-sizing: inherit;
+          cursor: pointer;
+          font-size: 16pt;
+          padding: 10px 20px;
+          transition: all 0.5s;
+          background: transparent;
+          color: white;
+
+          &:hover {
+            background: #04c2c9;
+            border: 2px solid #04c2c9;
+          }
+
+          &:hover > .icon svg {
+            transition: .4s;
+            rotate: 90deg;
+          }
+
+          span {
+            padding: 0 17px;
+            position: relative;
+
+            svg {
+              position: absolute;
+              top: -8px;
+            }
+          }
+        }
+
+      }
+
+    }
+  }
+}
+
